@@ -113,8 +113,36 @@ PRODUCT_PACKAGES += \
 
 # Rootdir
 PRODUCT_PACKAGES += \
+    fstab.qcom \
+    init.qcom.rc \
+    init.qcom.factory.rc \
+    init.qcom.usb.rc \
+    init.qti.kernel.rc \
+    init.qti.ufs.rc \
     init.recovery.qcom.rc \
-    init.qcom.rc
+    init.target.rc \
+    ueventd.qcom.rc
+
+PRODUCT_PACKAGES += \
+    init.class_main.sh \
+    init.crda.sh \
+    init.kernel.post_boot-bengal-iot.sh \
+    init.kernel.post_boot-bengal.sh \
+    init.kernel.post_boot.sh \
+    init.mdm.sh \
+    init.mi.serial.sh \
+    init.qcom.sh \
+    init.qcom.class_core.sh \
+    init.qcom.early_boot.sh \
+    init.qcom.post_boot.sh \
+    init.qcom.sdio.sh \
+    init.qcom.usb.sh \
+    init.qti.dcvs.sh \
+    init.qti.early_init.sh \
+    init.qti.kernel.sh \
+    init.qti.write.sh \
+    system_dlkm_modprobe.sh \
+    vendor_modprobe.sh
 
 # Soong namespaces
 PRODUCT_SOONG_NAMESPACES += \
