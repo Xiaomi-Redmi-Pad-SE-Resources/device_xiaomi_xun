@@ -174,10 +174,7 @@ BOARD_EXCLUDE_KERNEL_FROM_RECOVERY_IMAGE := true
 ENABLE_VENDOR_RIL_SERVICE := true
 
 # Sepolicy
-include device/qcom/sepolicy/SEPolicy.mk
-
-SYSTEM_EXT_PRIVATE_SEPOLICY_DIRS += $(DEVICE_PATH)/sepolicy/private
-SELINUX_IGNORE_NEVERALLOWS := true
+include device/qcom/sepolicy_vndr/SEPolicy.mk
 
 # Vendor boot
 BOARD_VENDOR_RAMDISK_KERNEL_MODULES := $(wildcard $(KERNEL_PATH)/modules/ramdisk/*.ko)
