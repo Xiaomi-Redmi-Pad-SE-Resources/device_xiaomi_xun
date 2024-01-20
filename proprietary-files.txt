@@ -1,3 +1,46 @@
+## xun package version: V14.0.5.0.TMUMIXM, unless stated otherwise
+
+# Firmware
+vendor/firmware/a610_zap.b00
+vendor/firmware/a610_zap.b01
+vendor/firmware/a610_zap.b02
+vendor/firmware/a610_zap.elf
+vendor/firmware/a610_zap.mdt
+vendor/firmware/a630_sqe.fw
+vendor/firmware/a660_sqe.fw
+vendor/firmware/a662_gmu.bin
+vendor/firmware/a662_zap.b00
+vendor/firmware/a662_zap.b01
+vendor/firmware/a662_zap.b02
+vendor/firmware/a662_zap.elf
+vendor/firmware/a662_zap.mbn
+vendor/firmware/a662_zap.mdt
+vendor/firmware/a710_sqe.fw
+vendor/firmware/a710_zap.b00
+vendor/firmware/a710_zap.b01
+vendor/firmware/a710_zap.b02
+vendor/firmware/a710_zap.elf
+vendor/firmware/a710_zap.mbn
+vendor/firmware/a710_zap.mdt
+vendor/firmware/a730_sqe.fw
+vendor/firmware/a730_zap.b00
+vendor/firmware/a730_zap.b01
+vendor/firmware/a730_zap.b02
+vendor/firmware/a730_zap.elf
+vendor/firmware/a730_zap.mbn
+vendor/firmware/a730_zap.mdt
+vendor/firmware/fs1815.fsm
+vendor/firmware/gmu_gen70000.bin
+vendor/firmware/sipa.bin
+vendor/firmware/venus.mbn
+vendor/firmware/venus_unsigned.mbn
+vendor/firmware/venus_v6.mbn
+vendor/firmware/venus_v7.mbn
+vendor/firmware/vpu20_1v.mbn
+vendor/firmware/vpu20_1v_unsigned.mbn
+vendor/firmware/vpu20_4v.mbn
+vendor/firmware/vpu20_4v_unsigned.mbn
+
 # Postprocessing
 system_ext/lib/vendor.display.color@1.0.so
 system_ext/lib/vendor.display.color@1.1.so
